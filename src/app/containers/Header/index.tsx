@@ -102,6 +102,11 @@ class Header extends React.Component<Props, any> {
                                 </NavLink>
                             </li>
                         ) : null}
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/batchupdate">
+                                ButchUpdate
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
             </nav>
